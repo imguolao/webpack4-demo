@@ -13,4 +13,5 @@
 ## webpack 4
 
 1. [打包静态资源](<https://www.cnblogs.com/guolao/p/11227646.html>)
+2. [webpack4 plugins 篇](<https://www.cnblogs.com/guolao/p/11239756.html>)
 
