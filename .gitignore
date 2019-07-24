@@ -1,3 +1,4 @@
 /babel7/node_modules/*
 /babel7/package-lock.json
 /demo_1/node_modules/*
+/demo_2/node_modules/*
