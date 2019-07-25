@@ -261,24 +261,24 @@ babel 7 还提供了`targets`，这个配置主要用于指定需要支持的环
 
 ```powershell
 npm i -D @babel/plugin-transform-runtime
-npm i -S @babel/runtime
+npm i -S @babel/runtime @babel/runtime-corejs2
 ```
 
 安装完毕之后依然是修改 .babelrc 文件：
 
 ```js
 {
-  "presets": [
+  "plugins": [
     [
-      "@babel/preset-env",
+      "@babel/plugin-transform-runtime",
       {
-        "targets": {
-          "browsers": ["last 2 versions", "ie >= 10"]
-        }
+        "corejs": 2,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
       }
     ]
-  ],
-  "plugins": ["@babel/plugin-transform-runtime"]
+  ]
 }
 ```
 
