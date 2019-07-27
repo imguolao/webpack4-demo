@@ -15,3 +15,4 @@
 1. [打包静态资源](<https://www.cnblogs.com/guolao/p/11227646.html>)
 2. [plugins 篇](<https://www.cnblogs.com/guolao/p/11239756.html>)
 3. [babel 篇](<https://www.cnblogs.com/guolao/p/11244758.html>)
+3. [code splitting 篇](<https://www.cnblogs.com/guolao/p/11256275.html>)
