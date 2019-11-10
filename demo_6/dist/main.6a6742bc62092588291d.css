@@ -1,0 +1,35 @@
+/* 全局样式 */
+.header {
+  color: #696969;
+  background-color: #fff;
+}
+
+.main {
+  color: #363636;
+  background-color: #fff;
+}
+
+/* less 等预处理语言可以这样写 */
+/* :global {
+  .footer {
+    color: #303030;
+    background-color: #fff;
+  }
+} */
+
+
+/* 局部样式 */
+.index__header--1JD7j {
+  color: red;
+  background-color: #c2b1b1;
+}
+
+.index__main--1j9-Y {
+  color: yellow;
+  background-color: rgb(136, 96, 96);
+}
+
+.index__footer--gJKjp {
+  color: blue;
+  background-color: #929292;
+}

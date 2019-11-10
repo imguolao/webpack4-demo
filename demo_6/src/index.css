@@ -1,0 +1,35 @@
+/* 全局样式 */
+:global(.header) {
+  color: #696969;
+  background-color: #fff;
+}
+
+:global .main {
+  color: #363636;
+  background-color: #fff;
+}
+
+/* less 等预处理语言可以这样写 */
+/* :global {
+  .footer {
+    color: #303030;
+    background-color: #fff;
+  }
+} */
+
+
+/* 局部样式 */
+:local(.header) {
+  color: red;
+  background-color: #c2b1b1;
+}
+
+:local(.main) {
+  color: yellow;
+  background-color: rgb(136, 96, 96);
+}
+
+:local(.footer) {
+  color: blue;
+  background-color: #929292;
+}
